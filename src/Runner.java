@@ -1,4 +1,4 @@
-package rhultd;
+
 import java.util.Scanner;
 
 public class Runner {
