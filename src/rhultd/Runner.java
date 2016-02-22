@@ -1,10 +1,15 @@
 package rhultd;
+import java.util.Scanner;
 
 public class Runner {
 
   public static void main(String[] args) {
-    // TODO Auto-generated method stub
-
+    Scanner kbd = new Scanner(System.in);
+    String input = kbd.nextLine();
+    while (input != "quit") {
+      
+      input = kbd.nextLine();
+    }
   }
 
 }
